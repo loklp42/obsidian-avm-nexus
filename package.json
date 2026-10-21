@@ -1,0 +1,27 @@
+{
+	"name": "obsidian-avm-nexus",
+	"version": "1.0.0",
+	"description": "High-speed GitHub plugin installer, update nexus, and ecosystem launcher for Obsidian",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [
+		"obsidian",
+		"obsidian-plugin",
+		"plugin-manager",
+		"github-installer",
+		"ave-maria",
+		"nexus"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^22.15.17",
+		"esbuild": "0.25.5",
+		"obsidian": "latest",
+		"typescript": "^5.8.3"
+	}
+}

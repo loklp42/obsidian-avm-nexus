@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-avm-nexus",
+	"name": "AVM Nexus",
+	"version": "1.0.0",
+	"minAppVersion": "1.4.0",
+	"description": "High-speed GitHub plugin installer, update nexus, and ecosystem launcher for Obsidian",
+	"author": "Ave Maria",
+	"isDesktopOnly": false
+}
